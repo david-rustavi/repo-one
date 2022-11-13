@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char symbol = 'T';
+    cout << symbol << endl;
+
+    int a = 100;
+    cout << a << endl;
+    
+    float first_number = 10.10;
+    cout << first_number << endl;
+    float second_number = 50.23;
+    cout << second_number << endl;
+    
+    int array[5] = {5, 10, 15, 20, 30};
+    cout << array[0] << endl;
+    cout << array[1] << endl;
+    cout << array[2] << endl;
+    cout << array[3] << endl;
+    cout << array[4] << endl;
+
+    return 0;
+}
